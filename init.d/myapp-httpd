@@ -27,8 +27,8 @@ GROUP=www-data
 #RELOAD_SIGNAL=1
 
 # Node.js
-MOVE_PROGRAM=/usr/local/bin/move
-MOVE_SCRIPT=/var/myapp/bin/myapp-httpd.mv
+MOVE_PROGRAM=/usr/local/bin/node
+MOVE_SCRIPT=/var/myapp/app.js
 MOVE_ARGS="$MOVE_PROGRAM"
 
 # Daemon supervisor config

@@ -1,6 +1,6 @@
 var app = express.createServer();
 
-app.get('/', function(req, res){
+app.get('/slappy', function(req, res){
     res.send('Well Hello there');
 });
 
