@@ -5,4 +5,7 @@ app.get('/slappy', function(req, res){
     res.send('Well Hello there');
 });
 
-app.listen(3000);
+if (!module.parent) {
+  app.listen(3030);
+  console.log("Express server listening on port %d", app.address().port);
+}
